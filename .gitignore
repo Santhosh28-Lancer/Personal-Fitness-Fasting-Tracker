@@ -1,0 +1,28 @@
+# Gradle and Android builds
+.gradle/
+**/build/
+.local-cache/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# Local machine configuration and signing material
+local.properties
+*.jks
+*.keystore
+keystore.properties
+key.properties
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+
+# OS and editor temporary files
+.DS_Store
+Thumbs.db
+*.swp
+*.tmp
